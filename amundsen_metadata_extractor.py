@@ -1,7 +1,7 @@
-    NEO4J_ENDPOINT = 'bolt://{}:{}'.format(neo_host, neo_port) #neo4j graphical interface uses bolt protocol
-    #default docker image sets uname and password as below
-    neo4j_user = 'neo4j' 
-    neo4j_password = 'test'
+NEO4J_ENDPOINT = 'bolt://{}:{}'.format(neo_host, neo_port) #neo4j graphical interface uses bolt protocol
+#default docker image sets uname and password as below
+neo4j_user = 'neo4j' 
+neo4j_password = 'test'
 
 #define path where both .csv files of nodes and relationships are defined where they are later saved in neo4j db
     tmp_folder = '/var/tmp/amundsen/{metadata_type}'.format(metadata_type=kwargs['metadata_type'])
