@@ -1,5 +1,4 @@
 import os
-from settings import PROJECT_ROOT
 
 es_host = '35.219.42.200'
 neo_host = '35.219.42.200'
